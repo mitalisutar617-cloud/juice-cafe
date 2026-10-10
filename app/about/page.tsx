@@ -13,6 +13,7 @@ import {
   ArrowRight,
   ShieldCheck,
 } from 'lucide-react';
+import { BASE_PATH } from '../data/juices';
 
 export const metadata = {
   title: 'Our Story & Philosophy | Zest & Bloom Juice Co.',
@@ -47,7 +48,7 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-6 relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-[4/3]">
             <Image
-              src="/images/cafe-interior.jpg"
+              src={`${BASE_PATH}/images/cafe-interior.jpg`}
               alt="Inside Zest & Bloom cafe sanctuary"
               fill
               className="object-cover"

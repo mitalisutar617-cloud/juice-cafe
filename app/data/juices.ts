@@ -20,6 +20,8 @@ export interface JuiceItem {
   };
 }
 
+export const BASE_PATH = '/juice-cafe';
+
 export const JUICES: JuiceItem[] = [
   {
     id: 'green-revive',
@@ -28,7 +30,7 @@ export const JUICES: JuiceItem[] = [
     tagline: 'Deep alkalizing cellular refresh & hydration',
     price: 149,
     size: '350ml Glass Bottle',
-    image: '/images/green-revive.jpg',
+    image: `${BASE_PATH}/images/green-revive.jpg`,
     ingredients: ['Organic Kale', 'Granny Smith Apple', 'Cucumber', 'Celery', 'Fresh Mint', 'Lemon'],
     benefits: ['Cellular Detox', 'Rich in Chlorophyll', 'Digestion Support'],
     calories: 120,
@@ -49,7 +51,7 @@ export const JUICES: JuiceItem[] = [
     tagline: 'Antioxidant superblend with pink pitaya & chia',
     price: 179,
     size: '350ml Glass Bottle',
-    image: '/images/berry-bliss.jpg',
+    image: `${BASE_PATH}/images/berry-bliss.jpg`,
     ingredients: ['Red Pitaya (Dragonfruit)', 'Strawberries', 'Blueberries', 'Organic Chia Seeds', 'Coconut Water', 'Lime'],
     benefits: ['Radiant Skin Glow', 'Antioxidant Powerhouse', 'Heart Health'],
     calories: 165,
@@ -70,7 +72,7 @@ export const JUICES: JuiceItem[] = [
     tagline: 'Golden anti-inflammatory immunity booster',
     price: 159,
     size: '350ml Glass Bottle',
-    image: '/images/citrus-sunrise.jpg',
+    image: `${BASE_PATH}/images/citrus-sunrise.jpg`,
     ingredients: ['Nagpur Orange', 'Crisp Carrot', 'Raw Ginger Root', 'Organic Turmeric', 'Lemon', 'Black Pepper'],
     benefits: ['Immunity Shield', 'Anti-Inflammatory', 'Natural Energy'],
     calories: 135,
@@ -91,7 +93,7 @@ export const JUICES: JuiceItem[] = [
     tagline: 'Sun-drenched Alphonso mango, passion fruit & crisp citrus',
     price: 169,
     size: '350ml Glass Bottle',
-    image: '/images/hero-juice.jpg',
+    image: `${BASE_PATH}/images/hero-juice.jpg`,
     ingredients: ['Ratnagiri Alphonso Mango', 'Passion Fruit', 'Mosambi', 'Pineapple Core', 'Wild Mint'],
     benefits: ['Vitamin C Blast', 'Electrolyte Replenish', 'Natural Mood Lift'],
     calories: 150,
@@ -112,7 +114,7 @@ export const JUICES: JuiceItem[] = [
     tagline: 'Stamina powerhouse with beet root & crisp ginger',
     price: 149,
     size: '350ml Glass Bottle',
-    image: '/images/berry-bliss.jpg',
+    image: `${BASE_PATH}/images/berry-bliss.jpg`,
     ingredients: ['Organic Red Beets', 'Shimla Apple', 'Baby Spinach', 'Lemon', 'Fresh Ginger'],
     benefits: ['Stamina & Blood Flow', 'Liver Cleansing', 'Iron Rich'],
     calories: 140,
@@ -133,7 +135,7 @@ export const JUICES: JuiceItem[] = [
     tagline: 'Potent concentrated kick to reset your system',
     price: 79,
     size: '60ml Wellness Shot',
-    image: '/images/citrus-sunrise.jpg',
+    image: `${BASE_PATH}/images/citrus-sunrise.jpg`,
     ingredients: ['Raw Ginger Juice (70%)', 'Fresh Lemon', 'Oregano Oil', 'Cayenne Pepper', 'Raw Forest Honey'],
     benefits: ['Rapid Immune Response', 'Throat Soother', 'Metabolism Kick'],
     calories: 45,
@@ -154,7 +156,7 @@ export const JUICES: JuiceItem[] = [
     tagline: '100% straight cold-pressed celery juice with a twist of lime',
     price: 139,
     size: '350ml Glass Bottle',
-    image: '/images/green-revive.jpg',
+    image: `${BASE_PATH}/images/green-revive.jpg`,
     ingredients: ['100% Crisp Celery', 'Key Lime'],
     benefits: ['Gut Lining Support', 'Electrolyte Balance', 'Bloat Relief'],
     calories: 70,
@@ -175,7 +177,7 @@ export const JUICES: JuiceItem[] = [
     tagline: '12 artisan bottles + 6 ginger shots curated by certified nutritionists',
     price: 1499,
     size: '12 Bottles + 6 Shots',
-    image: '/images/hero-juice.jpg',
+    image: `${BASE_PATH}/images/hero-juice.jpg`,
     ingredients: ['4x Green Revive', '4x Citrus Sunrise', '4x Ruby Beet', '6x Fire Immunity Shots'],
     benefits: ['Full Body Reset', 'Digestive Rest', 'Includes Cleanse Guide'],
     calories: 820,

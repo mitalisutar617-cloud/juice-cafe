@@ -13,7 +13,7 @@ import {
   Clock,
   Flame,
 } from 'lucide-react';
-import { JUICES } from './data/juices';
+import { JUICES, BASE_PATH } from './data/juices';
 import JuiceCard from './components/JuiceCard';
 
 export default function Home() {
@@ -95,7 +95,7 @@ export default function Home() {
                 {/* Decorative border frame */}
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-[4/5] sm:aspect-[4/3] lg:aspect-[4/5] bg-gradient-to-b from-orange-100 to-amber-100">
                   <Image
-                    src="/images/hero-juice.jpg"
+                    src={`${BASE_PATH}/images/hero-juice.jpg`}
                     alt="Fresh cold pressed juice with tropical fruits"
                     fill
                     priority
@@ -253,7 +253,7 @@ export default function Home() {
             <div className="lg:col-span-4 flex justify-center">
               <div className="relative w-64 h-64 sm:w-72 sm:h-72 rounded-2xl overflow-hidden border-2 border-emerald-500/30 shadow-2xl">
                 <Image
-                  src="/images/green-revive.jpg"
+                  src={`${BASE_PATH}/images/green-revive.jpg`}
                   alt="Cold pressed juice cleanse box bottles"
                   fill
                   className="object-cover"
@@ -270,7 +270,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
             <div className="lg:col-span-6 relative rounded-2xl overflow-hidden shadow-xl aspect-video lg:aspect-[4/3]">
               <Image
-                src="/images/cafe-interior.jpg"
+                src={`${BASE_PATH}/images/cafe-interior.jpg`}
                 alt="Zest and Bloom Cafe sunlit interior with guests and plants"
                 fill
                 className="object-cover"
