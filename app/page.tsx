@@ -169,7 +169,7 @@ export default function Home() {
             {
               icon: <Recycle className="w-6 h-6 text-teal-500" />,
               title: 'Glass Bottle Program',
-              desc: 'We bottle exclusively in recyclable glass. Bring your bottle back for $1 off your next refill at our counter.',
+              desc: 'We bottle exclusively in recyclable glass. Bring your bottle back for ₹15 off your next refill at our counter.',
             },
             {
               icon: <HeartHandshake className="w-6 h-6 text-rose-500" />,
@@ -241,7 +241,7 @@ export default function Home() {
                   href="/menu?cat=cleanses"
                   className="px-7 py-3.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-black text-sm transition-all shadow-lg shadow-emerald-500/20"
                 >
-                  Order Cleanse Box • $110
+                  Order Cleanse Box • ₹1,499
                 </Link>
                 <div className="text-xs text-emerald-200 flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-emerald-400" />
@@ -284,16 +284,16 @@ export default function Home() {
                 A Sun-Drenched Sanctuary for Body & Mind
               </h2>
               <p className="text-zinc-600 text-sm sm:text-base leading-relaxed">
-                Step inside our Sunny Hills cafe to sip fresh cold-press flights, enjoy handcrafted açai bowls, or catch up on work with high-speed WiFi under tropical greenery.
+                Step inside our Bhagya Nagar cafe to sip fresh cold-press flights, enjoy handcrafted smoothie bowls, or catch up on work with high-speed WiFi under lush indoor greenery.
               </p>
               <div className="space-y-2.5 text-sm text-zinc-700">
                 <div className="flex items-center gap-3">
                   <Clock className="w-4 h-4 text-orange-600" />
-                  <span><strong>Monday – Friday:</strong> 7:00 AM – 7:30 PM | <strong>Weekends:</strong> 8:00 AM – 8:00 PM</span>
+                  <span><strong>Daily Hours:</strong> 10:00 AM – 9:00 PM (Open 7 Days a Week)</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="text-orange-600 font-bold">📍</span>
-                  <span>428 Orchard Blossom Lane, San Francisco, CA 94110</span>
+                  <span>4th Cross, Bhagya Nagar, Belgaum, 590010</span>
                 </div>
               </div>
               <div className="pt-2">
@@ -328,7 +328,7 @@ export default function Home() {
               rating: 5,
             },
             {
-              quote: 'I did the 3-Day Cleanse last week and my skin cleared up completely. Plus, loving the $1 bottle return discount!',
+              quote: 'I did the 3-Day Cleanse last week and my skin cleared up completely. Plus, loving the ₹15 bottle return discount!',
               name: 'Julian Vance',
               role: 'Marathon Runner',
               rating: 5,

@@ -54,8 +54,8 @@ export default function AboutPage() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             <div className="absolute bottom-6 left-6 text-white">
-              <p className="text-sm font-bold">Our Sunny Hills Cafe Sanctuary</p>
-              <p className="text-xs text-zinc-300">Where community gathers over cold-press flights & botanical tonics</p>
+              <p className="text-sm font-bold">Our Bhagya Nagar Cafe Sanctuary</p>
+              <p className="text-xs text-zinc-300">Where community gathers over fresh cold-press flights & botanical tonics</p>
             </div>
           </div>
 
@@ -128,7 +128,7 @@ export default function AboutPage() {
             </div>
             <h3 className="text-xl font-extrabold text-zinc-900 mb-3">3. Closed Loop Glass Program</h3>
             <p className="text-zinc-600 text-sm leading-relaxed">
-              We eliminated single-use plastic bottles from day one. Customers bring back rinsed glass bottles and receive a <strong>$1.00 credit</strong> toward their next juice. We sanitize and reuse thousands of bottles monthly.
+              We eliminated single-use plastic bottles from day one. Customers bring back rinsed glass bottles and receive a <strong>₹15 credit</strong> toward their next juice. We sanitize and reuse thousands of bottles monthly.
             </p>
           </div>
         </div>

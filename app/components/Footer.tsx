@@ -118,16 +118,12 @@ export default function Footer() {
             </h4>
             <div className="space-y-2 text-sm text-zinc-400">
               <div>
-                <p className="text-zinc-200 font-medium">Mon – Fri</p>
-                <p className="text-xs">7:00 AM – 7:30 PM</p>
+                <p className="text-zinc-200 font-medium">Monday – Sunday</p>
+                <p className="text-xs text-orange-400 font-bold">10:00 AM – 9:00 PM</p>
               </div>
               <div>
-                <p className="text-zinc-200 font-medium">Saturday</p>
-                <p className="text-xs">8:00 AM – 8:00 PM</p>
-              </div>
-              <div>
-                <p className="text-zinc-200 font-medium">Sunday</p>
-                <p className="text-xs">8:00 AM – 6:00 PM</p>
+                <p className="text-zinc-200 font-medium">Fresh Cold-Press</p>
+                <p className="text-xs">Pressed Daily & All Weekend</p>
               </div>
             </div>
           </div>

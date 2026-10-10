@@ -33,7 +33,7 @@ export default function MapPlaceholder() {
             strokeWidth="2"
           />
           <text x="140" y="130" fill="#387a5a" fontSize="13" fontWeight="bold" fontFamily="sans-serif">
-            🌳 Green Meadow Park
+            🌳 Bhagya Nagar Park
           </text>
 
           {/* Water creek */}
@@ -52,26 +52,26 @@ export default function MapPlaceholder() {
           <line x1="0" y1="200" x2="800" y2="200" stroke="#ffffff" strokeWidth="22" />
           <line x1="0" y1="200" x2="800" y2="200" stroke="#fcd34d" strokeWidth="2" strokeDasharray="8 8" />
           <text x="50" y="194" fill="#9ca3af" fontSize="10" fontWeight="bold">
-            MISSION BLVD
+            BHAGYA NAGAR MAIN RD
           </text>
 
           {/* Avenue 2 */}
           <line x1="0" y1="360" x2="800" y2="360" stroke="#ffffff" strokeWidth="18" />
           <text x="50" y="355" fill="#9ca3af" fontSize="10" fontWeight="bold">
-            20TH STREET
+            KHANAPUR ROAD
           </text>
 
           {/* Cross Street 1 */}
           <line x1="280" y1="0" x2="280" y2="500" stroke="#ffffff" strokeWidth="20" />
           <line x1="280" y1="0" x2="280" y2="500" stroke="#fcd34d" strokeWidth="2" strokeDasharray="8 8" />
           <text x="290" y="70" fill="#9ca3af" fontSize="10" fontWeight="bold">
-            ORCHARD BLOSSOM LN
+            4TH CROSS
           </text>
 
           {/* Cross Street 2 */}
           <line x1="520" y1="0" x2="520" y2="500" stroke="#ffffff" strokeWidth="16" />
           <text x="530" y="70" fill="#9ca3af" fontSize="10" fontWeight="bold">
-            VALENCIA WAY
+            CONGRESS ROAD
           </text>
 
           {/* Neighborhood blocks */}
@@ -106,7 +106,7 @@ export default function MapPlaceholder() {
             <div className="mt-2 w-64 bg-white/95 backdrop-blur-md rounded-2xl p-3.5 shadow-2xl border border-orange-200 text-left animate-fadeIn">
               <div className="flex items-center justify-between">
                 <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800">
-                  ● Open Now
+                  ● Open 10am - 9pm
                 </span>
                 <span className="text-xs font-semibold text-orange-600">★ 4.9 (1.2k)</span>
               </div>

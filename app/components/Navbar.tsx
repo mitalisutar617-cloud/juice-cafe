@@ -31,18 +31,18 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="hidden sm:flex items-center gap-4 text-orange-100">
             <span className="flex items-center gap-1">
-              <MapPin className="w-3.5 h-3.5" /> 428 Orchard Blossom Ln, SF
+              <MapPin className="w-3.5 h-3.5" /> 4th Cross, Bhagya Nagar, Belgaum
             </span>
             <span className="flex items-center gap-1">
-              <Phone className="w-3.5 h-3.5" /> (555) 382-7474
+              <Phone className="w-3.5 h-3.5" /> +91 6360538862
             </span>
           </div>
           <div className="mx-auto sm:mx-0 flex items-center gap-1.5 font-semibold tracking-wide">
             <Sparkles className="w-3.5 h-3.5 text-yellow-200 animate-pulse" />
-            <span>Organic Cold-Pressed Juices • $1 Off Your First Bottle with Refill Return!</span>
+            <span>Organic Cold-Pressed Juices • ₹15 Off with Bottle Return!</span>
           </div>
           <div className="hidden md:block text-orange-100">
-            <span>Open Today: 7:00 AM – 7:30 PM</span>
+            <span>Open Daily: 10:00 AM – 9:00 PM</span>
           </div>
         </div>
       </div>

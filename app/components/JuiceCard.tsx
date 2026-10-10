@@ -66,7 +66,7 @@ export default function JuiceCard({ juice }: JuiceCardProps) {
               {juice.name}
             </h3>
             <span className="text-2xl font-black text-orange-600 tracking-tight">
-              ${juice.price.toFixed(2)}
+              ₹{juice.price}
             </span>
           </div>
 
@@ -120,7 +120,7 @@ export default function JuiceCard({ juice }: JuiceCardProps) {
           ) : (
             <>
               <Plus className="w-4 h-4 stroke-3" />
-              <span>Add to Order • ${juice.price.toFixed(2)}</span>
+              <span>Add to Order • ₹{juice.price}</span>
             </>
           )}
         </button>

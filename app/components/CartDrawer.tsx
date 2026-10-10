@@ -102,7 +102,7 @@ export default function CartDrawer() {
                       orderMethod === 'delivery' ? 'bg-white shadow-xs text-orange-600' : 'hover:text-zinc-900'
                     }`}
                   >
-                    🚴 Local Express ($2.99)
+                    🚴 Local Express (₹49)
                   </button>
                 </div>
 
@@ -124,7 +124,7 @@ export default function CartDrawer() {
                         </h5>
                         <p className="text-xs text-zinc-500">{item.juice.size}</p>
                         <p className="text-sm font-extrabold text-orange-600 mt-0.5">
-                          ${(item.juice.price * item.quantity).toFixed(2)}
+                          ₹{item.juice.price * item.quantity}
                         </p>
                       </div>
 
@@ -160,7 +160,7 @@ export default function CartDrawer() {
 
                 <div className="p-3 bg-amber-50 rounded-xl border border-amber-200 text-xs text-amber-900 flex items-start gap-2">
                   <Sparkles className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
-                  <span>Return your clean bottles at pickup and get <strong>$1.00 credit</strong> per bottle toward your next order!</span>
+                  <span>Return your clean bottles at pickup and get <strong>₹15 credit</strong> per bottle toward your next order!</span>
                 </div>
               </>
             )}
@@ -172,18 +172,18 @@ export default function CartDrawer() {
               <div className="space-y-1.5 text-sm">
                 <div className="flex justify-between text-zinc-600">
                   <span>Subtotal</span>
-                  <span className="font-semibold text-zinc-900">${subtotal.toFixed(2)}</span>
+                  <span className="font-semibold text-zinc-900">₹{subtotal.toLocaleString('en-IN')}</span>
                 </div>
                 <div className="flex justify-between text-zinc-600">
                   <span>Delivery/Handling</span>
                   <span className="font-semibold text-zinc-900">
-                    {orderMethod === 'pickup' ? 'Free (Pickup)' : '$2.99'}
+                    {orderMethod === 'pickup' ? 'Free (Pickup)' : '₹49'}
                   </span>
                 </div>
                 <div className="flex justify-between text-base font-extrabold text-zinc-900 pt-2 border-t border-zinc-200">
                   <span>Total</span>
                   <span className="text-orange-600">
-                    ${(subtotal + (orderMethod === 'delivery' ? 2.99 : 0)).toFixed(2)}
+                    ₹{(subtotal + (orderMethod === 'delivery' ? 49 : 0)).toLocaleString('en-IN')}
                   </span>
                 </div>
               </div>

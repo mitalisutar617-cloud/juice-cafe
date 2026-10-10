@@ -43,8 +43,8 @@ export default function ContactPage() {
       a: 'Because our juices are 100% raw, unheated, and contain zero chemical preservatives, they should always be refrigerated (34°F – 38°F). Unopened bottles stay perfectly fresh for 4 days from pressing. Once opened, enjoy within 24 hours for peak nutrient density.',
     },
     {
-      q: 'How does the $1.00 Glass Bottle Return program work?',
-      a: 'Simply rinse your empty Zest & Bloom glass bottles and caps, bring them to our cafe counter on your next visit, and our team will credit $1.00 directly off your order for each bottle returned. We thoroughly sanitize and reuse them in our zero-waste bottling loop!',
+      q: 'How does the ₹15 Glass Bottle Return program work?',
+      a: 'Simply rinse your empty Zest & Bloom glass bottles and caps, bring them to our cafe counter on your next visit, and our team will credit ₹15 directly off your order for each bottle returned. We thoroughly sanitize and reuse them in our zero-waste bottling loop!',
     },
     {
       q: 'Do you offer office delivery or catering for private events?',
@@ -85,7 +85,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-lg font-extrabold text-zinc-900">Cafe Hours</h3>
-                  <p className="text-xs text-zinc-500">Fresh press starts at dawn</p>
+                  <p className="text-xs text-orange-600 font-bold">10:00 AM to 9:00 PM Daily</p>
                 </div>
               </div>
               <span className="px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 flex items-center gap-1.5">
@@ -115,18 +115,18 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="text-lg font-extrabold text-zinc-900">Cafe Location</h3>
-                <p className="text-xs text-zinc-500">Sunny Hills District</p>
+                <p className="text-xs text-zinc-500">Bhagya Nagar, Belgaum</p>
               </div>
             </div>
 
             <div className="space-y-1.5 text-sm text-zinc-700 pt-2">
               <p className="font-bold text-zinc-900">{CAFE_INFO.address.street}</p>
-              <p>{CAFE_INFO.address.city}, {CAFE_INFO.address.state} {CAFE_INFO.address.zip}</p>
+              <p>{CAFE_INFO.address.city}, Karnataka - {CAFE_INFO.address.zip}</p>
               <p className="text-xs text-zinc-500 pt-1 font-medium">
                 📍 {CAFE_INFO.address.landmark}
               </p>
               <p className="text-xs text-zinc-500">
-                🚇 5 minutes walk from 19th & Mission BART Station. Free 1-hour street parking right outside.
+                🚶 Located at 4th Cross Bhagya Nagar, Belgaum. Free parking available right in front of the cafe.
               </p>
             </div>
 
@@ -136,7 +136,7 @@ export default function ContactPage() {
                 className="flex items-center gap-1.5 hover:text-orange-600 transition-colors"
               >
                 <Phone className="w-4 h-4 text-orange-500" />
-                <span>{CAFE_INFO.phone}</span>
+                <span>+91 {CAFE_INFO.phone}</span>
               </a>
               <a
                 href={`mailto:${CAFE_INFO.email}`}
