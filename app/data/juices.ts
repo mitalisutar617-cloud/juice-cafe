@@ -20,7 +20,7 @@ export interface JuiceItem {
   };
 }
 
-export const BASE_PATH = '/juice-cafe';
+export const BASE_PATH = '';
 
 export const JUICES: JuiceItem[] = [
   {
